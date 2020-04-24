@@ -1,9 +1,11 @@
 # @toolio/config.log
 
-**Plugin - Default configs for @toolio/log.**
+**Plugin - Default configs for [@toolio/log](https://github.com/tooliojs/log)**
 
 [![CircleCI](https://circleci.com/gh/tooliojs/config.log.svg?style=shield)](https://circleci.com/gh/tooliojs/config.log)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/tooliojs/config.log/blob/master/LICENSE.md)
+
+*Note: Plugins only work in [@toolio/config](https://github.com/tooliojs/config) files.*
 
 ## Install
 ```
@@ -14,9 +16,6 @@ npm install @toolio/config.log
 ```js
 /* .toolio/config.js */
 
-/* Check out @toolio/config for more info */
-/* on how to create and modify your own configs. */
-
 module.exports = {
     config: {
         mode: 'relaxed',
@@ -25,7 +24,7 @@ module.exports = {
 }
 ```
 ```js
-const log = require('@toolio/log')  // @toolio/log is a dependency
+const log = require('@toolio/log')
 
 log.error('this error message will get logged only to the console')
 log.test('this test message won\'t actually log')
