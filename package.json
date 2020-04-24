@@ -1,0 +1,18 @@
+{
+  "name": "@toolio/config.log",
+  "version": "0.1.2",
+  "description": "Plugin - Default configs for @toolio/log.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "tooliojs",
+    "config",
+    "logger"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@toolio/log": "^0.2.1"
+  }
+}
