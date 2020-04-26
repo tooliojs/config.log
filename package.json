@@ -1,6 +1,6 @@
 {
   "name": "@toolio/config.log",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Plugin - Default configs for @toolio/log.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/tooliojs/config.log#readme",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "@toolio/log": "^0.2.1"
   }
 }

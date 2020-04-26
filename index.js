@@ -21,9 +21,11 @@ module.exports = {
                 color: 'green',
                 bold: true
             },
+            message: {
+                prefix: 'message'
+            },
             test: {
-                prefix: 'test',
-                color: 'magenta'
+                prefix: 'test'
             }
         }
     }
